@@ -1,7 +1,9 @@
+import { Header } from "./components/Header"
+
 export function App() {
   return (
-    <div>
-      <h1>Olá</h1>
+    <div className="px-6 py-8 bg-bg-primary h-svh font-display">
+      <Header />
     </div>
   )
 }

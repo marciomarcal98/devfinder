@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-    --text-primary: #2B3442;
-    --text-secondary: #4B6A9B;
-    --text-tertiary: #697C9A;
+    --font-display: "Space Mono", monospace;
 
-    --bg-primary: #F6F8FF;
-    --bg-secondary: #FEFEFE;
+    --color-text-primary: #2B3442;
+    --color-text-secondary: #4B6A9B;
+    --color-text-tertiary: #697C9A;
+
+    --color-bg-primary: #F6F8FF;
+    --color-bg-secondary: #FEFEFE;
 
     --color-branding: #0079FF;
+
+    --tracking-1: 2.5px;
 }
